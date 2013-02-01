@@ -1,0 +1,50 @@
+.customSelect {
+    position: relative;
+    width: 200px;
+}
+
+.customSelect input {
+    background-color: #FBFBFB;
+    border: 1px solid #C1C1C1;
+    border-radius: 4px 4px 4px 4px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.customSelect div {
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    position:absolute;
+    font-size: 14px;
+    border: 1px solid #C1C1C1;
+    max-height: 300px;
+    display:none;
+}
+
+.customSelect ul {
+    display:none;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.customSelect ul li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.customSelect ul li:hover {
+    background: none repeat scroll 0 0 #C9E6ED;
+}
+
+
+ul.hide li{
+    display:none;
+}
+
+ul .selected {
+    background: none repeat scroll 0 0 #C9E6ED;
+}

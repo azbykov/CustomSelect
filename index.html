@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Custom Select</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="customSelect.css">
+        <script src="customSelect.js"></script>
+    </head>
+    <body>
+    <p>
+        Just create new Object CustomSelect with select ID
+    </p>
+    <select>
+        <option value="1">Россия</option>
+        <option value="2">Украина</option>
+        <option value="3">Австралия</option>
+        <option value="4">Австрия</option>
+        <option value="5">Азербайджан</option>
+        <option value="7">Аргентина</option>
+        <option value="8">Армения</option>
+        <option value="6">Ангуилья</option>
+        <option value="90">Арулько</option>
+        <option value="10">Беларусь</option>
+        <option value="11">Белиз</option>
+        <option value="12">Бельгия</option>
+        <option value="13">Бермуды</option>
+        <option value="14">Болгария</option>
+        <option value="15">Бразилия</option>
+        <option value="16">Великобритания</option>
+        <option value="17">Венгрия</option>
+        <option value="18">Вьетнам</option>
+        <option value="19">Гаити</option>
+        <option value="20">Гваделупа</option>
+        <option value="21">Германия</option>
+        <option value="22">Голландия</option>
+        <option value="23">Гондурас</option>
+        <option value="24">Гонконг</option>
+        <option value="25">Греция</option>
+        <option value="26">Грузия</option>
+        <option value="27">Дания</option>
+        <option value="28">Доминиканская республика</option>
+        <option value="29">Египет</option>
+        <option value="30">Израиль</option>
+        <option value="31">Индия</option>
+        <option value="32">Индонезия</option>
+        <option value="33">Иордания</option>
+        <option value="34">Ирак</option>
+        <option value="35">Иран</option>
+        <option value="36">Ирландия</option>
+        <option value="37">Испания</option>
+        <option value="38">Италия</option>
+        <option value="39">Казахстан</option>
+        <option value="40">Камерун</option>
+        <option value="41">Канада</option>
+        <option value="42">Карибы</option>
+        <option value="43">Кипр</option>
+        <option value="44">Киргызстан</option>
+        <option value="45">Китай</option>
+        <option value="46">Корея</option>
+        <option value="47">Коста-Рика</option>
+        <option value="48">Куба</option>
+        <option value="49">Кувейт</option>
+        <option value="50">Латвия</option>
+        <option value="51">Ливан</option>
+        <option value="52">Ливан</option>
+        <option value="53">Ливия</option>
+        <option value="54">Литва</option>
+        <option value="55">Люксембург</option>
+        <option value="56">Македония</option>
+        <option value="57">Малайзия</option>
+        <option value="58">Мальта</option>
+        <option value="59">Мексика</option>
+        <option value="60">Мозамбик</option>
+        <option value="61">Молдова</option>
+        <option value="62">Монако</option>
+        <option value="63">Монголия</option>
+        <option value="64">Морокко</option>
+        <option value="65">Нидерланды</option>
+        <option value="66">Новая Зеландия</option>
+        <option value="67">Норвегия</option>
+        <option value="68">О.А.Э.</option>
+        <option value="69">Остров Мэн</option>
+        <option value="70">Пакистан</option>
+        <option value="71">Перу</option>
+        <option value="72">Польша</option>
+        <option value="73">Португалия</option>
+        <option value="74">Реюньон</option>
+        <option value="75">Румыния</option>
+        <option value="76">США</option>
+        <option value="77">Сальвадор</option>
+        <option value="78">Сингапур</option>
+        <option value="79">Сирия</option>
+        <option value="80">Словакия</option>
+        <option value="81">Словения</option>
+        <option value="82">Суринам</option>
+        <option value="83">Таджикистан</option>
+        <option value="84">Тайвань</option>
+        <option value="85">Тайланд</option>
+        <option value="86">Тунис</option>
+        <option value="87">Туркменистан</option>
+        <option value="88">Туркмения</option>
+        <option value="89">Туркс и Кейкос</option>
+        <option value="900">Турция</option>
+        <option value="91">Уганда</option>
+        <option value="92">Узбекистан</option>
+        <option value="93">Финляндия</option>
+        <option value="94">Франция</option>
+        <option value="95">Хорватия</option>
+        <option value="96">Чехия</option>
+        <option value="97">Чили</option>
+        <option value="98">Швейцария</option>
+        <option value="99">Швеция</option>
+        <option value="100">Эквадор</option>
+        <option value="101">Эстония</option>
+        <option value="102">ЮАР</option>
+        <option value="103">Югославия</option>
+        <option value="104">Южная Корея</option>
+        <option value="105">Ямайка</option>
+        <option value="106">Япония</option>
+    </select>
+    <br />
+    +
+    <br />
+    var CuSelect = new CustomSelect('countriesSelect');
+    <br /> =
+
+        <select id="countriesSelect" name="country">
+            <option value="1">Россия</option>
+            <option value="2">Украина</option>
+            <option value="3">Австралия</option>
+            <option value="4">Австрия</option>
+            <option value="5">Азербайджан</option>
+            <option value="7">Аргентина</option>
+            <option value="8">Армения</option>
+            <option value="6">Ангуилья</option>
+            <option value="90">Арулько</option>
+            <option value="10">Беларусь</option>
+            <option value="11">Белиз</option>
+            <option value="12">Бельгия</option>
+            <option value="13">Бермуды</option>
+            <option value="14">Болгария</option>
+            <option value="15">Бразилия</option>
+            <option value="16">Великобритания</option>
+            <option value="17">Венгрия</option>
+            <option value="18">Вьетнам</option>
+            <option value="19">Гаити</option>
+            <option value="20">Гваделупа</option>
+            <option value="21">Германия</option>
+            <option value="22">Голландия</option>
+            <option value="23">Гондурас</option>
+            <option value="24">Гонконг</option>
+            <option value="25">Греция</option>
+            <option value="26">Грузия</option>
+            <option value="27">Дания</option>
+            <option value="28">Доминиканская республика</option>
+            <option value="29">Египет</option>
+            <option value="30">Израиль</option>
+            <option value="31">Индия</option>
+            <option value="32">Индонезия</option>
+            <option value="33">Иордания</option>
+            <option value="34">Ирак</option>
+            <option value="35">Иран</option>
+            <option value="36">Ирландия</option>
+            <option value="37">Испания</option>
+            <option value="38">Италия</option>
+            <option value="39">Казахстан</option>
+            <option value="40">Камерун</option>
+            <option value="41">Канада</option>
+            <option value="42">Карибы</option>
+            <option value="43">Кипр</option>
+            <option value="44">Киргызстан</option>
+            <option value="45">Китай</option>
+            <option value="46">Корея</option>
+            <option value="47">Коста-Рика</option>
+            <option value="48">Куба</option>
+            <option value="49">Кувейт</option>
+            <option value="50">Латвия</option>
+            <option value="51">Ливан</option>
+            <option value="52">Ливан</option>
+            <option value="53">Ливия</option>
+            <option value="54">Литва</option>
+            <option value="55">Люксембург</option>
+            <option value="56">Македония</option>
+            <option value="57">Малайзия</option>
+            <option value="58">Мальта</option>
+            <option value="59">Мексика</option>
+            <option value="60">Мозамбик</option>
+            <option value="61">Молдова</option>
+            <option value="62">Монако</option>
+            <option value="63">Монголия</option>
+            <option value="64">Морокко</option>
+            <option value="65">Нидерланды</option>
+            <option value="66">Новая Зеландия</option>
+            <option value="67">Норвегия</option>
+            <option value="68">О.А.Э.</option>
+            <option value="69">Остров Мэн</option>
+            <option value="70">Пакистан</option>
+            <option value="71">Перу</option>
+            <option value="72">Польша</option>
+            <option value="73">Португалия</option>
+            <option value="74">Реюньон</option>
+            <option value="75">Румыния</option>
+            <option value="76">США</option>
+            <option value="77">Сальвадор</option>
+            <option value="78">Сингапур</option>
+            <option value="79">Сирия</option>
+            <option value="80">Словакия</option>
+            <option value="81">Словения</option>
+            <option value="82">Суринам</option>
+            <option value="83">Таджикистан</option>
+            <option value="84">Тайвань</option>
+            <option value="85">Тайланд</option>
+            <option value="86">Тунис</option>
+            <option value="87">Туркменистан</option>
+            <option value="88">Туркмения</option>
+            <option value="89">Туркс и Кейкос</option>
+            <option value="900">Турция</option>
+            <option value="91">Уганда</option>
+            <option value="92">Узбекистан</option>
+            <option value="93">Финляндия</option>
+            <option value="94">Франция</option>
+            <option value="95">Хорватия</option>
+            <option value="96">Чехия</option>
+            <option value="97">Чили</option>
+            <option value="98">Швейцария</option>
+            <option value="99">Швеция</option>
+            <option value="100">Эквадор</option>
+            <option value="101">Эстония</option>
+            <option value="102">ЮАР</option>
+            <option value="103">Югославия</option>
+            <option value="104">Южная Корея</option>
+            <option value="105">Ямайка</option>
+            <option value="106">Япония</option>
+        </select>
+
+        <script type="text/javascript">
+            var CuSelect = new CustomSelect('countriesSelect');
+        </script>
+    </body>
+</html>
